@@ -1,0 +1,221 @@
+
+:root {
+    --dark: rgb(70, 8, 70);
+    --light: white;
+    --med: olive;
+    --abyss: black;
+    --y:45px;
+  
+  
+  }
+
+  body { 
+    margin:15px;
+    line-height: 2.3;
+  
+  }
+ 
+header {
+  margin:10px;
+  padding: 10px;
+
+  }
+
+  h1 {
+    text-align: left;
+    color: var(--med);
+    font-size: 85px;
+    border-style:hidden;
+    margin: 15px;
+  }
+
+  h1:hover {
+    color: var(--dark);
+    font-size: 50px;
+
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    color: var(--med);
+
+  }
+
+  nav ul li a {
+    color: var(--med);
+    padding: 8px;
+    margin: 8px;
+  
+  }
+  
+   a:hover[href="#"]{
+    background-color: black;
+   }
+
+   /*Section containing the first picture on the page. Used a Anime show I like for the class name*/
+.HxH{
+    margin: 50%, 50%;
+    text-align: center;
+    background-color: var(--dark);
+  }
+
+.imgMe {
+  border-style: solid;
+  border-color: var(--med);
+  border-width: 6px;
+   
+ }
+
+ main{ 
+  display:flex;
+  flex-direction: column;
+  margin-right:50%;
+  border-right-style: solid;
+  border-right-width: 3px;
+  
+
+  }
+
+    /*I used my favorite raps artists name for this section class*/
+  .Nas{ 
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;   
+    line-height: 1.8;
+    color:var(--med);
+    margin-right:35%;
+  }
+
+ /*My favorite football team is the About Me div*/
+.Steelers {
+  border-bottom-style: solid;
+  border-bottom-width: 7px;
+  padding-left: 35px;
+  margin-left: 25px;
+
+}
+
+  .imgMe2 {
+    border-style: solid;
+    border-color: var(--med);
+    border-width: 6px;
+  }
+
+  h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight:100;
+    padding-bottom: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+  }
+
+  /*Adjust the About Me <p> tag using my fovorite football team as the class the name*/
+.September {
+  text-indent: 65px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  
+}
+/* article class conataining the insight in my work historty*/
+  .Journey {
+    border-style: dashed;
+    border-width: 10px;
+    
+  }
+
+/*3rd image on the page*/
+  .imgMe3 {
+    border-style: solid;
+    border-color: var(--med);
+    border-width: 6px;
+  }
+
+  h3 {
+    font-size: 36px;
+    text-align: center;
+    font-weight:100;
+    padding-bottom: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline; 
+
+  }
+
+  .Celtics {
+    text-indent: 50px;
+    text-align: revert;
+    font-size:19px;
+   
+  
+  }
+
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 50%;
+    margin-top:-152%;
+    background-color: darkgrey;
+  }
+
+  h4 {
+    font-size: 25px;
+    text-align: center;
+    font-weight:200;
+    padding-bottom: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+  }
+
+  h5 {
+    font-size: 20px;
+    text-align: center;
+    font-weight:200;
+    padding-bottom: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+  }
+
+  .workPics{
+    text-align: center;
+
+
+  }
+
+  .workPic{
+   border-style: double;
+   border-width: 8px;
+      
+  }
+
+  .workExp {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    text-indent: 35px;
+    padding: 2px;
+    margin: 3px;
+
+  }
+
+
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: var(--dark);
+    color: var(--light);
+    margin-top: auto;
+   
+}
+
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
