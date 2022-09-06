@@ -1,0 +1,105 @@
+
+:root {
+    --nas: rgb(70, 8, 70);
+    --Jcole: rgb(199, 158, 93);
+    --Biggie: olive;
+    --HxH: black;
+
+  }
+
+  body { 
+    margin:15px;
+    line-height: 2.3;
+    
+
+  }
+ 
+header {
+  margin:10px;
+  padding: 10px;
+  background-color: var(--Jcole);
+
+  }
+
+  h1 {
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+    color: var(--HxH);
+
+  }
+
+  h1:hover{
+    color: var(--Biggie);
+    font-size: 45px;
+
+  }
+
+
+  .navBar{
+    color:var(--nas);
+    list-style: none;
+  
+  }
+  .navBarLi{
+    display: inline;
+    float: right;
+    margin-right: 5px;
+
+  }
+
+  .firstPicOfMe {
+    text-align: center;
+
+  }
+  
+  main {
+    background-color: goldenrod;
+    margin-right: 40%;
+  
+  }
+
+
+  .aboutMeArt {
+   margin-bottom: 8px;
+   border-style: solid;
+   border-width: 5px;
+   padding: 7px;
+
+  }
+
+  .picOfMe2 {
+   text-align: center ;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 25px;
+
+  }
+
+  .aboutMePara {
+    border-bottom: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: var(--dark);
+    color: var(--light);
+    margin-top: auto;
+   
+}
+
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
