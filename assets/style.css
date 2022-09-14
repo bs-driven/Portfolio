@@ -14,22 +14,21 @@
 
   }
  
-header {
+.header {
   margin:10px;
   padding: 10px;
   background-color: var(--Jcole);
 
   }
 
-  h1 {
-    font-size: 25px;
+  .cstm-h1 {
     text-decoration: underline;
     text-align: center;
     color: var(--HxH);
 
   }
 
-  h1:hover{
+  .cstm-h2:hover{
     color: var(--Biggie);
     font-size: 45px;
 
@@ -83,7 +82,12 @@ header {
     padding-bottom: 5px;
     margin-bottom: 5px;
   }
-
+  .sidebar{
+    border-left: 6 px;
+    padding: 10px 15px;
+    margin-left: 65%;
+    margin-top: -73.5%;
+  }
 
 .footer {
     width: 100%;
