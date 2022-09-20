@@ -37,13 +37,21 @@
 
   .navBar{
     color:var(--nas);
-    list-style: none;
-  
-  }
-  .navBarLi{
+    padding: 5px;
     display: inline;
     float: right;
-    margin-right: 5px;
+
+    
+  
+  }
+  .navList{
+    list-style: none;
+    margin: 5px;
+    padding: 6px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--Biggie);
+
 
   }
 
@@ -98,6 +106,10 @@
     color: var(--light);
     margin-top: auto;
    
+}
+:target{
+  border-width: 4px;
+  border-color: var(--Jcole);
 }
 
 
