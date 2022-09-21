@@ -3,7 +3,7 @@
     --nas: rgb(38, 178, 31);
     --Jcole: rgb(229, 226, 36);
     --Biggie: olive;
-    --HxH: black;
+    --HxH: rgba(40, 227, 227, 0.904);
     --OnePiece: blue;
 
   }
@@ -11,7 +11,6 @@
   body { 
     margin:15px;
     line-height: 2.3;
-    
 
   }
  
@@ -25,8 +24,12 @@
 
   .cstm-h1 {
     text-align: center;
-    color: var(--HxH);
+    color:black;
 
+  }
+  .cstm-h2{
+    text-align: center;
+    color:black;
   }
 
   .cstm-h2:hover{
@@ -35,43 +38,64 @@
 
   }
 
+  a:link{
+    color: var(--Jcole);
+  }
+
+  a:visited{
+    color: var(--nas);
+  }
+  a:hover{
+    color: var(--OnePiece);
+  }
+  a:active{
+    color: var(--HxH);
+  }
 
   .navBar{
     text-align: center;
-      
+
   }
   .navList{
     list-style: none;
-  
+
   }
 
   .firstPicOfMe {
     text-align: center;
+    background-color: var(--Biggie);
 
   }
   
-  main {
-    background-color: goldenrod;
-    margin-right: 40%;
+  .aboutMeSec{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
   
   }
-
 
   .aboutMeArt {
-   margin-bottom: 8px;
-   border-style: solid;
-   border-width: 5px;
-   padding: 7px;
+    font-size: 22px;
+    background-color: var(--HxH);
+    margin-bottom: 8px;
+    border-style: solid;
+    border-width: 5px;
+    padding: 7px;
 
   }
 
   .picOfMe2 {
-   text-align: center ;
+   text-align: center;
+ 
+  }
+  .imgMe2{
+    border-width: 4px;
+    border-style: double;
+    border-color: black;
   }
 
-  h2 {
-    text-align: center;
-    font-size: 25px;
+  h3{
+    text-align: right;
+    font-size: 45px;
+    text-decoration: underline;
 
   }
 
@@ -80,11 +104,29 @@
     padding-bottom: 5px;
     margin-bottom: 5px;
   }
-  .sidebar{
-    border-left: 6 px;
-    padding: 10px 15px;
+  .workArt{
+    margin: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   }
+  h4{
+    font-size: 35px;
+
+  }
+  .workPicExamples{
+    text-align: center;
+    padding: 7px;
+
+  }
+  .workPic{
+    padding: 6px;
+    border: 4px solid var(--OnePiece);
+  }
+
+  .workExp{
+    font-size: 19px;
+  }
+ 
 
 .footer {
     width: 100%;
@@ -95,10 +137,6 @@
     color: var(--light);
     margin-top: auto;
    
-}
-:target{
-  border-width: 4px;
-  border-color: var(--Jcole);
 }
 
 
