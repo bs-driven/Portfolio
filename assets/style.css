@@ -1,9 +1,10 @@
 
 :root {
-    --nas: rgb(70, 8, 70);
-    --Jcole: rgb(199, 158, 93);
+    --nas: rgb(38, 178, 31);
+    --Jcole: rgb(229, 226, 36);
     --Biggie: olive;
     --HxH: black;
+    --OnePiece: blue;
 
   }
 
@@ -15,44 +16,33 @@
   }
  
 .header {
-  margin:10px;
-  padding: 10px;
-  background-color: var(--Jcole);
-
+  margin: 4px;
+  padding: 4px;
+  border-bottom: 3px solid black;
+  display:block;
+ 
   }
 
   .cstm-h1 {
-    text-decoration: underline;
     text-align: center;
     color: var(--HxH);
 
   }
 
   .cstm-h2:hover{
-    color: var(--Biggie);
+    color: var(--OnePiece);
     font-size: 45px;
 
   }
 
 
   .navBar{
-    color:var(--nas);
-    padding: 5px;
-    display: inline;
-    float: right;
-
-    
-  
+    text-align: center;
+      
   }
   .navList{
     list-style: none;
-    margin: 5px;
-    padding: 6px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: var(--Biggie);
-
-
+  
   }
 
   .firstPicOfMe {
@@ -93,8 +83,7 @@
   .sidebar{
     border-left: 6 px;
     padding: 10px 15px;
-    margin-left: 65%;
-    margin-top: -73.5%;
+
   }
 
 .footer {
