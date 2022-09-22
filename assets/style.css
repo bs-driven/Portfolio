@@ -126,6 +126,11 @@
   .workExp{
     font-size: 19px;
   }
+  .secretTold{
+    background-color: var(--nas);
+    color: var(--Jcole);
+    font-weight: 400;
+  }
  
 
 .footer {
