@@ -126,10 +126,40 @@
   .workExp{
     font-size: 19px;
   }
+  
+  .contactArt{
+    font-size: 20px;
+    background-color: var(--Jcole);
+
+  }
+  h5{
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px;
+  }
+  
+  .form{
+    text-align: center;
+  }
+
+
+  .barCert{
+    border: 6px solid var(--HxH);
+    border-radius: 5%;
+
+  }
+
+  .bartendingComment{
+    border: 3px solid black;
+  }
+
   .secretTold{
+    border: 6px dotted var(--Biggie);
     background-color: var(--nas);
     color: var(--Jcole);
     font-weight: 400;
+    padding: 4px 8px;
   }
  
 
